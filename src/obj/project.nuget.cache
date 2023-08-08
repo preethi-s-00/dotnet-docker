@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "dgSpecHash": "g1s0OzDiHr+QX+WazhDolWX9LWpErcsh1WY1z2nffpF4JS8BrS5mwb2wZzSedmudDTyyIRqlG4grwcKkXd613w==",
+  "success": true,
+  "projectFilePath": "/workspaces/dotnet-docker/src/myWebApp.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+}
