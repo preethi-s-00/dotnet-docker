@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: mycontainer
-          image: dot-doc-v3
+          image: preethi00/sampleapp:tagname
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
