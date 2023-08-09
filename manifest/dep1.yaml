@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mygapp-dep2
+spec:
+  selector:
+    matchLabels:
+      app: mygapp2
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: mygapp2
+        type: backgend2
+    spec:
+      containers:
+        - name: mycontainer
+          image: preethi00/sampleapp:tagname
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 5001
