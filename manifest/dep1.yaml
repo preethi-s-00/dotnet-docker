@@ -18,4 +18,4 @@ spec:
           image: preethi00/sampleapp:tagname
           imagePullPolicy: IfNotPresent
           ports:
-            - containerPort: 5001
+            - containerPort: 80
